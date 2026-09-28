@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cir1"></div>
+    <div class="cir2"></div>
+    <div class="cir3"></div>
+    <div class="card">
+        <div class="img">
+            <img  id="changephoto" src="image/pic.jpg" alt="">
+        </div>
+        <div class="information">
+            <h2 id="inf1">Rizwan</h2>
+            <h3 id="inf2">Hello! I'm Rizwan</h3>
+            <p id="inf3">I am a Passionate Web Developer currently.I"m actively learnig new web technologies.</p>
+            <div class="bot">
+                <button id="btn1" onclick="changeText()">change text</button>
+                <button id="btn2" onclick="changePic()">change picture</button>
+            </div>
+        </div>
+        <div class="footer">
+            <input id="rename" type="text" placeholder="Inter Name">
+            <button onclick="changeName()" class="SubmitBtn">Change Name</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 155, 48);
+}
+
+.cir1{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:rgb(236, 155, 48);
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    box-shadow: 0px 0px 10px 5px rgba(231, 227, 227, 0.329);
+}
+.cir2{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:rgb(236, 155, 48);
+    position: absolute;
+    right: 30px;
+    box-shadow: 0px 0px 10px 5px rgba(231, 227, 227, 0.329);
+}
+.cir3{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:rgb(236, 155, 48);
+    position: absolute;
+    left: 66px;
+    bottom: 93px;
+    box-shadow: 0px 0px 10px 5px rgba(231, 227, 227, 0.329);
+}
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(187, 138, 31);
+    position: relative;
+    border-radius: 5px;
+    padding: 6px;
+    box-shadow:0 0 5px 3px rgba(114, 93, 2, 0.473) inset;
+}
+.img{
+    height: 120px;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.199);
+}
+.information{
+    width: 100%;
+    height: 150px;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 12.5px;
+}
+.information h2{
+    margin-bottom:13px ;
+    color: rgb(31, 27, 14);
+}
+.information h3{
+    margin-bottom:7.5px ;
+    font-weight:500px ;
+    font-size: 20px;
+}
+.information p{
+    color: rgba(0, 0, 0, 0.678);
+    margin-bottom: 10px;
+}
+#btn1{
+    background: linear-gradient(135deg, #bb8a1f, #e0b84f);
+    color: #fff;
+    border: 2px solid #f5d77a;
+    border-radius: 10px;
+    padding: 12px 28px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+#btn2 {
+    background-color: rgb(126, 88, 18);
+    color: white;
+    border: 2px solid rgb(224, 177, 67);
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.footer{
+    height: 115px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.footer input{
+    height: 40px;
+    width: 100%;
+    margin-bottom:10px ;
+    background-color: rgb(245, 225, 170);
+    color: rgb(70, 45, 5);
+    border: 2px solid rgb(126, 88, 18);
+    padding: 10px 14px;
+    border-radius: 8px;
+    outline: none;
+}
+input:focus {
+    border-color: rgb(224, 177, 67);
+    box-shadow: 0 0 8px rgba(224, 177, 67, 0.6);
+}
+
+.SubmitBtn{
+    height: 40px;
+    width: 60%;
+    border-radius: 5px;
+    background-color: rgb(92, 63, 12);
+    color: white;
+    border: 2px solid rgb(218, 169, 55);
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
